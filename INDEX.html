@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>My Portfolio</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+ <nav class="dev-nav">
+    <a href="#" onclick="showTab('about'); setActive(this)" class="active">
+        &lt; About /&gt;
+    </a>
+
+    <a href="#" onclick="showTab('education'); setActive(this)">
+        &lt; Education /&gt;
+    </a>
+
+    <a href="#" onclick="showTab('skills'); setActive(this)">
+        &lt; Skills /&gt;
+    </a>
+
+    <a href="#" onclick="showTab('projects'); setActive(this)">
+        &lt; Projects /&gt;
+    </a>
+</nav>
+ <div class="hero">
+  <div class="hero-text">
+    <h1 id="typed-name"></h1>
+    <p class="tagline">Aspiring SDE | Full Stack Developer</p>
+    <p>I'm a 1st year CSE student building my portfolio website.</p>
+  </div>
+  <img src="profile.jpg" alt="Manolingesh" class="profile-pic">
+</div>
+
+
+ <section id="about" class="tab-section">
+  <h2>About Me</h2>
+  <p>I've had a strong interest in computer science since the 4th standard, and that early curiosity led me to pursue a B.E. in Computer Science Engineering at SIET, Coimbatore, following the Anna University Regulation 2025 curriculum.</p>
+  <p>My long-term goal is to become a Software Development Engineer (SDE). I plan to specialize in Full Stack Development as my Professional Elective, focusing on building complete, functional web applications — much like this very portfolio.</p>
+</section>
+
+
+<section id="education" class="tab-section">
+  <h2>Education</h2>
+  <p>My academic journey so far, building toward a career in software development:</p>
+  <ul>
+    <li>B.E. Computer Science Engineering — SIET, Coimbatore, 1st Year, Section-C (Anna University, Regulation 2025)(Currenty Pursuing)</li>
+    <li>Higher Secondary — Govt Hr Sec School, Kalapatti</li>
+    <li>12th Standard(HSC) - 81.8%</li>
+    <li>10th Standars(SSLC) - 93.4%</li>
+  </ul>
+</section>
+
+<section id="skills" class="tab-section">
+  <h2>Skills</h2>
+  <p>Technologies I'm currently learning and working with:</p>
+  <div class="skills-grid">
+    <div class="skill-item">
+      <i class="fab fa-html5"></i>
+      <span>HTML</span>
+    </div>
+    <div class="skill-item">
+      <i class="fab fa-css3-alt"></i>
+      <span>CSS</span>
+    </div>
+    <div class="skill-item">
+      <i class="fab fa-js"></i>
+      <span>JavaScript (learning)</span>
+    </div>
+    <div class="skill-item">
+      <i class="fas fa-layer-group"></i>
+      <span>Full Stack Development (planned focus)</span>
+    </div>
+  
+    <div class="skill-item">
+      <i class="fab fa-git-alt"></i>
+      <span>GitHub</span>
+    </div>
+  
+  </div>
+</section>
+
+
+<section id="projects" class="tab-section">
+  <h2>Projects</h2>
+  <p>Here's what I've built so far as I learn web development, plus a few things I'm planning next:</p>
+
+  <div class="project-card">
+    <h3>Mini Project: This Portfolio Website <span class="status-tag">In Progress</span></h3>
+    <p>My personal portfolio, built entirely from scratch using HTML, CSS, and JavaScript as I learn web development. Features tab-based navigation, an animated typing effect, and a fully responsive mobile layout.</p>
+  </div>
+
+</section>
+<div class="contact-links">
+<footer>
+  <a href="mailto:manolingesh06@gmai.com" class="footer-icon email"><i class="fas fa-envelope"></i></a>
+  <a href="https://github.com/manolingesh06-glitch" target="_blank" class="footer-icon github"><i class="fab fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/mano-lingesh-277923428/" target="_blank" class="footer-icon linkedin"><i class="fab fa-linkedin"></i></a>
+  <a href="https://www.instagram.com/manolingesh467/" target="_blank" class="footer-icon instagram"><i class="fab fa-instagram"></i></a>
+  <p class="footer-text">Ⓒ 2026 Manolingesh. Built with HTML,CSS & JS.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
