@@ -1,5 +1,4 @@
-
- body {
+body {
     background-color: #0d1117;
     color: #c9d1d9;
     font-family: 'Inter', Arial, sans-serif;
@@ -73,7 +72,7 @@ h2{
     gap: 15px;
     margin-top: 15px;
 }
-.skill-iteam{
+.skill-item{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -83,11 +82,11 @@ h2{
      padding: 12px 8px;
      transition: 0.2s;
 }
-.skill-iteam:hover{
+.skill-item:hover{
     border-color: #58a6ff;
     transform: translateY(-3px);
 }
-.skill-iteam i{
+.skill-item i{
     font-size: 20px;
     color: #58a6ff;
 }
@@ -240,7 +239,7 @@ footer{
   align-items: center;
   gap: 30px;
   margin-top: 20px;
-  main-height: 320px;
+  min-height: 320px;
   padding: 50px 20px;
 }
 .hero h1 {
