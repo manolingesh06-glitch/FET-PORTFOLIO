@@ -31,3 +31,5 @@ My long-term goal is to become a **Software Development Engineer** and build use
 ---
 
 **Thanks for visiting my portfolio!** 🚀
+
+https://fet-portfolio.netlify.app/
